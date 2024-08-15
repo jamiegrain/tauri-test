@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+}
+
+#rootContainer {
+    padding: 2em;
+    max-height: 80vh;
+    overflow: scroll;
+    background-color: white;
+    width: clamp(400px, 50%, 800px);
+
+}
+
+.homeContainer{
+    display: grid;
+    place-items: center;
+}
